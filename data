@@ -1,0 +1,43 @@
+18.4.6 Integration Test Documentation
+An overall plan for integration of the software and a description of specific tests are
+documented in a Test Specification. This document contains a test plan, and a test pro-
+cedure, is a work product of the software process, and becomes part of the software
+configuration.
+The test plan describes the overall strategy for integration. Testing is divided into
+phases and builds that address specific functional and behavioral characteristics of
+Test Specification
+the software. For example, integration testing for a CAD system might be divided into
+the following test phases:
+•
+User interaction (command selection, drawing creation, display representa-
+tion, error processing and representation).
+•
+Data manipulation and analysis (symbol creation, dimensioning; rotation,
+computation of physical properties).
+•
+Display processing and generation (two-dimensional displays, three-
+dimensional displays, graphs and charts).
+•
+Database management (access, update, integrity, performance).
+Each of these phases and subphases (denoted in parentheses) delineates a broad
+functional category within the software and can generally be related to a specific
+domain of the program structure. Therefore, program builds (groups of modules) are
+created to correspond to each phase. The following criteria and corresponding tests
+are applied for all test phases:
+Interface integrity. Internal and external interfaces are tested as each
+module (or cluster) is incorporated into the structure.
+Functional validity. Tests designed to uncover functional errors are con-
+ducted.
+Information content. Tests designed to uncover errors associated with
+local or global data structures are conducted.
+Performance. Tests designed to verify performance bounds established
+during software design are conducted.
+A schedule for integration, the development of overhead software, and related
+topics is also discussed as part of the test plan. Start and end dates for each phase
+are established and "availability windows" for unit tested modules are defined. A brief
+description of overhead software (stubs and drivers) concentrates on characteristics
+that might require special effort. Finally, test environment and resources are described.
+Unusual hardware configurations, exotic simulators, and special test tools or tech-
+niques are a few of many topics that may also be discussed.
+The detailed testing procedure that is required to accomplish the test plan is
+described next. The order of integration and corresponding tests at each integration

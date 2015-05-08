@@ -1,0 +1,3 @@
+#include<stdio.h> should be the #1 line of a C program.
+@ symbol is used in emails.#define is a way of declaring
+macros in a C program
