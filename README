@@ -1,14 +1,8 @@
 Procedure to  run the project:
 
 
-Please run the output files after compiling rawsend.c and rawrecv.c(Method of compilation(type on command terminal) : cc -o rs rawsend.c -lm)
-Run output files simultaneously.
-The OS should be Linux(compulsory).
-Keep this folder(ASSGN2) as it is(do not add or subtract contents)  
+Please run the output files after compiling rawsend.c and rawrecv.c
+Compile as "cc -o rs rawsend.c -lm"
+
 Run the files(rawsend.c and rawrecv.c) by changing directory to ASSGN2 with root permission
-(Root permission is obtained by typing 'sudo su' on the Linux command terminal followed by entering
-account password).
-The packets can be also seen by running wireshark simultaneously in promiscus mode while running the output files.
-Graphs can be seen if ./exec is executed on command terminal.First provide execute permission to exec(chmod +x exec).
-This project must be kept extremely confidential and not be published as open source or distributed to anyone.
-VIOLATORS OF THE ABOVE RULE ARE LIABLE FOR PROSECUTION.
+
